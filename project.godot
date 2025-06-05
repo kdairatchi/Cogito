@@ -20,12 +20,10 @@ config/icon="res://addons/cogito/COGITO_icon.png"
 
 [autoload]
 
-Audio="*res://addons/quick_audio/./Audio.gd"
 CogitoGlobals="*res://addons/cogito/cogito_globals.gd"
 CogitoSceneManager="*res://addons/cogito/SceneManagement/cogito_scene_manager.gd"
 CogitoQuestManager="*res://addons/cogito/QuestSystem/cogito_quest_manager.gd"
 MenuTemplateManager="*res://addons/cogito/EasyMenus/Nodes/menu_template_manager.tscn"
-InputHelper="*res://addons/input_helper/input_helper.gd"
 
 [display]
 
