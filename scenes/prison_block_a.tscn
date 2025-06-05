@@ -1,0 +1,23 @@
+[gd_scene load_steps=5 format=4]
+
+[ext_resource type="Script" path="res://addons/cogito/SceneManagement/cogito_scene.gd" id="1"]
+[ext_resource type="PackedScene" path="res://addons/cogito/PackedScenes/cogito_player.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/guard_npc.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/contraband_item.tscn" id="4"]
+[ext_resource type="PackedScene" path="res://scenes/escape_zone.tscn" id="5"]
+
+[node name="PrisonBlockA" type="Node3D"]
+script = ExtResource("1")
+
+[node name="PlayerSpawn" parent="." instance=ExtResource("2")]
+transform = Transform3D(1,0,0,0,1,0,0,0,1,0,0,0)
+
+[node name="Guard" parent="." instance=ExtResource("3")]
+transform = Transform3D(1,0,0,0,1,0,0,0,1,5,0,5)
+
+[node name="Contraband" parent="." instance=ExtResource("4")]
+transform = Transform3D(1,0,0,0,1,0,0,0,1,2,0,2)
+
+[node name="Escape" parent="." instance=ExtResource("5")]
+transform = Transform3D(1,0,0,0,1,0,0,0,1,-5,0,-5)
+
