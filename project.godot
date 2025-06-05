@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Cogito"
-run/main_scene="res://addons/cogito/DemoScenes/COGITO_0_MainMenu.tscn"
+run/main_scene="res://scenes/prison_block_a.tscn"
 config/features=PackedStringArray("4.4", "Forward Plus")
 run/max_fps=120
 boot_splash/fullsize=false
@@ -20,12 +20,10 @@ config/icon="res://addons/cogito/COGITO_icon.png"
 
 [autoload]
 
-Audio="*res://addons/quick_audio/./Audio.gd"
 CogitoGlobals="*res://addons/cogito/cogito_globals.gd"
 CogitoSceneManager="*res://addons/cogito/SceneManagement/cogito_scene_manager.gd"
 CogitoQuestManager="*res://addons/cogito/QuestSystem/cogito_quest_manager.gd"
 MenuTemplateManager="*res://addons/cogito/EasyMenus/Nodes/menu_template_manager.tscn"
-InputHelper="*res://addons/input_helper/input_helper.gd"
 
 [display]
 
