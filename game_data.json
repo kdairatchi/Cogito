@@ -1,0 +1,43 @@
+{
+  "contraband": [
+    {
+      "name": "Toothbrush Shiv",
+      "components": [
+        "Toothbrush",
+        "Razor Blade"
+      ],
+      "risk": 5
+    },
+    {
+      "name": "Foil Gum Keycard",
+      "components": [
+        "Gum",
+        "Foil",
+        "Ink Pen"
+      ],
+      "risk": 3
+    },
+    {
+      "name": "Battery Lockpick",
+      "components": [
+        "AA Battery",
+        "Paperclip"
+      ],
+      "risk": 2
+    }
+  ],
+  "tiles": [
+    {
+      "id": "dirty_cell",
+      "description": "A dirty concrete floor"
+    },
+    {
+      "id": "vent_duct",
+      "description": "Rusty air duct cover"
+    },
+    {
+      "id": "guard_room",
+      "description": "Locked guard surveillance room"
+    }
+  ]
+}
